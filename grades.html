@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+<style>
+ul.circle{list-style: circle;}
+ul.square{list-style: square;}
+ol.upper{list-style: upper-roman;}
+ol.alpha{list-style: lower-alpha;}
+ul.nav{
+list-style: none;
+text-align: center;
+border-bottom: 1px solid red;
+border-top: 1px solid red;
+padding: 5px
+}
+.nav li{
+display: inline;
+text-transform: uppercase;
+padding: 10px;
+letter-spacing: 10px;
+}
+.nav li a{
+text-decoration: none;
+color: black;
+}
+.nav li a:hover{
+text-decoration:underline;
+}
+table{
+border: 1px solid rgb(23, 1, 44);
+border-collapse: collapse;
+width: 300px;
+height: 150px;
+}
+td, th{
+border: 1px solid rgb(168, 240, 215);
+/* background-color: rgb(244, 255, 235); */
+text-align: center;
+border-bottom: 1px solid green ;
+}
+tr:nth-child(even){
+background-color: rgb(243, 243, 182);
+}
+tr:hover{
+background-color: brown;
+color:white;
+}
+</style>
+</head>
+<body>
+<!-- 메뉴-->
+<ul class="nav">
+<li><a href="#">Home</a></li>
+<li><a href="#">Menu1</a></li>
+<li><a href="#">Menu2</a></li>
+<li><a href="#">Menu3</a></li>
+</ul>
+<ul class="circle">
+<li>HTML5</li>
+<li>CSS3</li>
+<li>JavaScript</li>
+</ul>
+<ul class="square">
+<li>HTML5</li>
+<li>CSS3</li>
+<li>JavaScript</li>
+</ul>
+<ol class="upper">
+<li>HTML5</li>
+<li>CSS3</li>
+<li>JavaScript</li>
+</ol>
+<ol class="alpha">
+<li>HTML5</li>
+<li>CSS3</li>
+<li>JavaScript</li>
+</ol>
+<!-- 표 스타일 적용하기 -->
+<table>
+<caption>기말 성적</caption>
+<thead>
+<tr> <th>학번</th> <th>과목</th> <th>성적</th> <th>학점</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Kim</td><td>80</td><td>B</td></tr>
+<tr><td>2</td><td>Lee</td><td>90</td><td>A</td></tr>
+<tr><td>3</td><td>Choi</td><td>70</td><td>C</td></tr>
+<tr><td>4</td><td>Park</td><td>85</td><td>B</td></tr>
+<tr><td>5</td><td>Hong</td><td>95</td><td>A</td></tr>
+</tbody>
+</table>
+</body>
+</html>
